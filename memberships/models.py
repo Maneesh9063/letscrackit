@@ -4,7 +4,7 @@ from django.db.models.signals import post_save
 
 from datetime import datetime
 import stripe
-stripe.api_key = settings.STRIPE_SECRET_KEY
+stripe.api_key = "sk_test_51HNvhSBVuLEXnmBueyUGRRgAAF36exchU9oeawIn6NPgGvupCGWsGIw32tlfuVNj5HT8NTkmOGjgmQDKd0B3pbGW00OUp9OXe9"
 
 
 MEMBERSHIP_CHOICES = (
