@@ -2,7 +2,7 @@ import os
 import django_heroku
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SECRET_KEY = '7w6ggl1i%3wq4%x_4z13gnkf07bg0nx7sg34kerj&3@eq#n0(h'
+SECRET_KEY = 'sk_test_51HNvhSBVuLEXnmBueyUGRRgAAF36exchU9oeawIn6NPgGvupCGWsGIw32tlfuVNj5HT8NTkmOGjgmQDKd0B3pbGW00OUp9OXe9'
 DEBUG = True
 ALLOWED_HOSTS = ['letscrackit.herokuapp.com']
 
